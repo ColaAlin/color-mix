@@ -1,0 +1,36 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background-color: rgb(28, 166, 128);
+}
+
+header {
+  font-size: 1.5rem;
+  font-family: monospace;
+  height: 10vh;
+  padding: .5rem .5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.content {
+  height: 90vh;
+  --count: 0%;
+}
+
