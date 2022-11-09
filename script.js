@@ -3,7 +3,6 @@ function colors() {
     const green = document.querySelector("#green").value;
     const blue = document.querySelector("#blue").value;
     document.body.style.backgroundColor = "rgb(" + red + "," + green + "," + blue + ")";
-   // document.querySelector("#hex").innerText = hex;
 
     let hex = "";
 
@@ -19,3 +18,4 @@ function colors() {
     hex = "#" + r + b + g;
     document.querySelector("#hex").innerText = hex;
 }
+colors()
