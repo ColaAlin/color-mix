@@ -19,3 +19,16 @@ function colors() {
     document.querySelector("#hex").innerText = hex;
 }
 colors()
+
+let randomColor = document.querySelector("button")
+     randomColor.addEventListener("click", function () {
+
+       fetch('https://dummy-apis.netlify.app/api/color')
+      .then((req) => req.json())
+      .then((colors) => {
+        red.value = colors.rgb.r;
+        green.value = colors.rgb.b;
+        blue.value = colors.rgb.g;
+      });
+      colors()
+  });

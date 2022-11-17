@@ -41,3 +41,9 @@ header {
 .green {
   accent-color: green;
 }
+
+button {
+  background-color: white;
+  border-radius: 5px;
+  height: 30px;
+}
